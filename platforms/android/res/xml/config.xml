@@ -18,7 +18,16 @@
     <feature name="FileTransfer">
         <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
     </feature>
+    <feature name="MusicControls">
+        <param name="android-package" value="com.homerours.musiccontrols.MusicControls" />
+    </feature>
     <allow-intent href="market:*" />
+    <icon density="ldpi" src="www/public/android-chrome-36x36.png" />
+    <icon density="mdpi" src="www/public/android-chrome-48x48.png" />
+    <icon density="hdpi" src="www/public/android-chrome-72x72.png" />
+    <icon density="xhdpi" src="www/public/android-chrome-96x96.png" />
+    <icon density="xxhdpi" src="www/public/android-chrome-144x144.png" />
+    <icon density="xxxhdpi" src="www/public/android-chrome-192x192.png" />
     <name>peermusicMobile</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
